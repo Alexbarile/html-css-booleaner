@@ -50,3 +50,16 @@ a{
 h6{
    font-weight: 300; 
 }
+
+.paragrafo{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.giallo{
+    background-color: yellow;
+}
+
+.listapuntata{
+    margin-top: 20px;
+    margin-left: 15px;
+}
