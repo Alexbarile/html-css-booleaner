@@ -4,25 +4,21 @@
     box-sizing: border-box;
 }
 
-.bg-blue{
+/*titolo*/
+
+header{
+    height: 100px;
     background-color: rgb(150, 150, 208);
-    width: 100%;
-    height: 100px;
     background-image: url(./img/pattern.png);
-    background-size: contain;
-    margin-bottom: 15px;
+    background-size: 200px;
 }
 
-.logo{
-    background-image: url(./img/logo.svg);
-    width: 150px;
-    height: 100px;
-    background-repeat: no-repeat;
+.logo-header{
+    height: 50px;
+    margin-top: 40px;
 }
 
-.container{
-    margin-left: 15px;
-}
+/*corpo sito*/
 
 .titolo{
     font-size: 50px;
@@ -64,46 +60,53 @@ h6{
     margin-left: 15px;
 }
 
-.text-left{
-    text-align: left;
-}
-
-.prima-riga{
-    background-color: rgb(170, 171, 210);
-    color: white;
-}
-
-.seconda-riga{
-    background-color: aqua;
-}
-
 table{
+    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+thead{
+    background-color: rgb(133, 129, 219);
+    color: white;
+}
+
+td{
+    width: 500px;
+}
+
+.odd{
+    background-color: aqua;
+}
+
+/*pie di pagina*/
 
 .text-footer{
     color: gray;
     margin-top: 25px;
 }
 
-.monitor{
-    margin-top: 15px;
+.img-1{
+    width: 250px;
+    height: 250px;
+    margin: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(./img/monitor.jpg);
     margin-bottom: 15px;
 }
 
-.graph{
-    margin-bottom: 25px;
-}
 
-.foto-monitor{
-    background-image: url(./img/monitor.jpg);
-    font-size: 50px;
-}
 
-.foto-graph{
+.img-2{
+    width: 250px;
+    height: 250px;
+    margin: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     background-image: url(./img/graph.jpg);
-    width: auto;
 }
+
 
