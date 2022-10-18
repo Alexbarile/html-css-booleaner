@@ -21,7 +21,7 @@
 }
 
 .container{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .titolo{
@@ -76,3 +76,33 @@ h6{
 .seconda-riga{
     background-color: aqua;
 }
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-footer{
+    color: gray;
+    margin-top: 25px;
+}
+
+.monitor{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.graph{
+    margin-bottom: 25px;
+}
+
+.foto-monitor{
+    background-image: url(./img/monitor.jpg);
+    width: auto;
+}
+
+.foto-graph{
+    background-image: url(./img/graph.jpg);
+    width: auto;
+}
+
