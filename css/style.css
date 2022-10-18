@@ -98,10 +98,11 @@ table{
 
 .foto-monitor{
     background-image: url(./img/monitor.jpg);
-    width: auto;
+    font-size: 50px;
 }
 
 .foto-graph{
+    color: white;
     background-image: url(./img/graph.jpg);
     width: auto;
 }
