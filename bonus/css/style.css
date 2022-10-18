@@ -4,19 +4,110 @@
     box-sizing: border-box;
 }
 
-/*start*/
+/*titolo*/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
 header{
     height: 100px;
+    background-color: rgb(150, 150, 208);
+    background-image: url('../')
+    background-size: 200px;
+}
+
+
+
+/*corpo sito*/
+
+.titolo{
+    font-size: 50px;
+}
+
+.sottotitolo{
+    font-weight: 600;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.data{
+    font-weight: 300;
+    color: gray;
+}
+
+.fototim{
+    margin-top: 20px;
+}
+
+h6{
+   font-weight: 300; 
+}
+
+.paragrafo{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.giallo{
+    background-color: yellow;
+}
+
+.listapuntata{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+table{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+thead{
+    background-color: rgb(133, 129, 219);
+    color: white;
+}
+
+td{
+    width: 500px;
+}
+
+.odd{
     background-color: aqua;
-    background-image: url('../img/pattern.png');
-    background-size: 250px;
 }
 
-.logo-header{
+/*pie di pagina*/
 
+.text-footer{
+    color: gray;
+    margin-top: 25px;
 }
 
-h1{
-    font-size: ;
+.img-1{
+    width: 250px;
+    height: 250px;
+    margin: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(./img/monitor.jpg);
+    margin-bottom: 15px;
 }
+
+
+
+.img-2{
+    width: 250px;
+    height: 250px;
+    margin: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(./img/graph.jpg);
+}
+
